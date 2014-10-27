@@ -68,7 +68,7 @@ void barreB(int key)
 /********************************/
 /* Creer la balle */
 
-int x=H/2-3, y=L/2-6;
+int x=1, y=1;
 bool gd=1, hb=1;
 
 void balle()
@@ -172,7 +172,7 @@ void briqueB()
 	{
 	  hb=0; x-=2;
 	  srand(time(NULL));
-	  briqueH = rand()%(H/2)+1;
+	  briqueH = rand()%(H/2-3)+1;
 	  briqueL = rand()%(L-7)+1;
 	  score++;
 	}
@@ -184,7 +184,7 @@ void briqueB()
 	{
 	  hb=1; x+=2;
 	  srand(time(NULL));
-	  briqueH = rand()%(H/2)+1;
+	  briqueH = rand()%(H/2-3)+1;
 	  briqueL = rand()%(L-7)+1;
 	  score++;
 	}
@@ -196,7 +196,7 @@ void briqueB()
 	{
 	  hb=0; x-=2;
 	  srand(time(NULL));
-	  briqueH = rand()%(H/2)+1;
+	  briqueH = rand()%(H/2-3)+1;
 	  briqueL = rand()%(L-7)+1;
           score++;
 	}
@@ -208,7 +208,7 @@ void briqueB()
 	{
 	  hb=1; x+=2;
 	  srand(time(NULL));
-	  briqueH = rand()%(H/2)+1;
+	  briqueH = rand()%(H/2-3)+1;
 	  briqueL = rand()%(L-7)+1;	  
 	  score++;
 	}
