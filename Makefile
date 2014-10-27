@@ -1,3 +1,3 @@
 
-game2: game2.cc
-	g++ -o game2 game2.cc
+projet: projet.cc
+	g++ -o projet projet.cc
