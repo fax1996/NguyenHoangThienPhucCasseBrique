@@ -1,3 +1,3 @@
 
-projet: projet.cc
-	g++ -o projet projet.cc
+projet: projet(final).cc
+	g++ -o projet(final) projet(final).cc
